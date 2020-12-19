@@ -5,9 +5,6 @@ import static org.junit.Assert.*;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import clase.Utile;
-import clase.Utils;
-
 public class TestCase1Utils {
 
 private static Utils object;
