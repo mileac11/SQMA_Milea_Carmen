@@ -16,7 +16,6 @@ private static Utils object;
 		boolean rezultatActual = object.MultipleOfFour(20);
 		boolean rezultatAsteptat = true;
 		assertEquals(rezultatAsteptat, rezultatActual);
-		fail("Not yet implemented");
 	}
 	
 	@Test
@@ -24,7 +23,6 @@ private static Utils object;
 		boolean rezultatActual = object.MultipleOfFour(25);
 		boolean rezultatAsteptat = false;
 		assertEquals(rezultatAsteptat, rezultatActual);
-		fail("Not yet implemented");
 	}
 	
 	@Test
@@ -32,7 +30,6 @@ private static Utils object;
 		boolean rezultatActual = object.IsPrime(7);
 		boolean rezultatAsteptat = true;
 		assertEquals(rezultatAsteptat, rezultatActual);
-		fail("Not yet implemented");
 	}
 	
 
