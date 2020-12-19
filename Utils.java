@@ -21,7 +21,7 @@ public class Utils {
 		
 		int reversed = 0;	
 		while(input > 0) {		
-			reversed = reversed * (input % 10);
+			reversed = reversed * 10 + (input % 10);
 			input = input / 10;		
 		}
 		
