@@ -1,5 +1,3 @@
-package clase;
-
 public class Utils {
 
 	public boolean MultipleOfFour(int input) {
