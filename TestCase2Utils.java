@@ -15,7 +15,7 @@ public class TestCase2Utils {
 	}
 	@Test
 	public void testNumarCompus() {
-		boolean rezultatActual = object.IsPrime(7);
+		boolean rezultatActual = object.IsPrime(8);
 		boolean rezultatAsteptat = false;
 		assertEquals(rezultatAsteptat, rezultatActual);
 	}
