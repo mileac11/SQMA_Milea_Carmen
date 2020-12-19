@@ -1,4 +1,3 @@
-package teste;
 
 import static org.junit.Assert.*;
 
