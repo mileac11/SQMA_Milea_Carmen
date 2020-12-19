@@ -18,14 +18,14 @@ public class Utils {
 	}
 	
 	public boolean IsPalindrome(int input) {
-		
+		int initialInput = input;
 		int reversed = 0;	
 		while(input > 0) {		
 			reversed = reversed * 10 + (input % 10);
 			input = input / 10;		
 		}
 		
-		return reversed == input;
+		return reversed == initialInput;
 		
 	}
 }
