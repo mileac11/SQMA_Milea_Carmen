@@ -21,7 +21,6 @@ public class TestCase2Utils {
 		boolean rezultatActual = object.IsPrime(7);
 		boolean rezultatAsteptat = false;
 		assertEquals(rezultatAsteptat, rezultatActual);
-		fail("Not yet implemented");
 	}
 	
 	@Test
@@ -29,7 +28,6 @@ public class TestCase2Utils {
 		boolean rezultatActual = object.IsPalindrome(252);
 		boolean rezultatAsteptat = true;
 		assertEquals(rezultatAsteptat, rezultatActual);
-		fail("Not yet implemented");
 	}
 	
 	@Test
@@ -37,7 +35,6 @@ public class TestCase2Utils {
 		boolean rezultatActual = object.IsPalindrome(2252);
 		boolean rezultatAsteptat = false;
 		assertEquals(rezultatAsteptat, rezultatActual);
-		fail("Not yet implemented");
 	}
 
 }
